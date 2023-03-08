@@ -8,11 +8,21 @@
                 font-family: "Brush Script MT", cursive;
                 bottom: 0;
                 position: fixed;
+                z-index: 2;
             }
             #header{
                 font-family: Garamond, serif;
                 top: 0;
                 position: absolute;
+            }
+            #orb1{
+                top: 70px;
+            }
+            #orb2{
+                top: 270px;
+            }
+            #orb3{
+                top: 200px;
             }
             .bar{
                 font-size: 30px;
@@ -30,6 +40,19 @@
                 text-align: center;
                 line-height: 20px;
             }
+
+            .circle{
+                border-radius: 50%;
+                margin: 20px;
+                background-color: rgb(247, 157, 55);
+                text-align: center;
+                width: fit-content;
+                float: left;
+                position: relative;
+                z-index: 1;
+                
+            }
+
             .green{
                 background-color: rgba(121, 150, 16, 0.75);
             }
@@ -85,7 +108,7 @@
                     <p>Welcome to the swamp, folks</p>
                 </div>  
             </tr>
-                <div class="green box">
+                <div class="green box bottom">
                     <p>some</p>
                     <p class="big"> <b>Body</b></p>
                     <p>once</p>
@@ -94,7 +117,18 @@
                     <img src="dek_and_shronkey.jpg" width="300" height="210">
                 </div> 
         </aside> 
-
-            
+        <div>
+            <tr>
+                <div id="orb1" class="big circle" >
+                    <img src="mushroom2.png" width="200" height="200">
+                </div>
+                <div id="orb2" class="big circle">
+                    <img src="mushroom2.png" width="200" height="200">
+                </div>
+                <div id="orb3" class="big circle">
+                    <img src="mushroom2.png" width="200" height="200">
+                </div>
+            </tr>
+        </div>
     </body>
 </html>
