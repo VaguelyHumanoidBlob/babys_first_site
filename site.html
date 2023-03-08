@@ -2,14 +2,99 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>its a webpage i guess</title>
+        <title>Swamp Hut</title>
+        <style type="text/css">
+            #footer{
+                font-family: "Brush Script MT", cursive;
+                bottom: 0;
+                position: fixed;
+            }
+            #header{
+                font-family: Garamond, serif;
+                top: 0;
+                position: absolute;
+            }
+            .bar{
+                font-size: 30px;
+                width: 95%;
+                line-height: 30px;
+                align-self: center;
+                color:rgb(22, 66, 22); 
+                background-color: rgba(159, 172, 40, 0.75);               
+            }
+            .box{
+                color:rgb(22, 66, 22);
+                border-radius: 25px;
+                padding: 10px;
+                margin: 20px;
+                text-align: center;
+                line-height: 20px;
+            }
+            .green{
+                background-color: rgba(121, 150, 16, 0.75);
+            }
+            .top{
+                margin-top: 70px;
+            }
+            .bottom{
+                margin-bottom: 80px;
+            }
+            .wide{
+                width: 370px;
+            }
+            .right{
+                float: right;
+            }
+            .left{
+                float: left;
+            }
+            .tol{
+                height: 1000px;
+            }
+            .big {
+                font-size: 25px;
+            }
+            a{
+                color:rgb(2, 42, 2)
+            }
+        </style>
     </head>
-    <body>
-        <h1>Some</h1>
-        <p>body</p>
-        <p>once</p>
-        <p>told me</p>
-        <img src="dek_and_shronkey.jpg" width="400" height="278">
-        <p>What are you doing in my <a href="https://en.wikipedia.org/wiki/Swamp"><b><i>swamp</i></b></a>!? >:(</p>
+    <body style="background-color:rgb(198, 209, 94)">
+        <footer id="footer" class="box bar">
+            <tr>
+                <td><img src="sparkles.gif" width="30" height="30"></td>
+                <td>I may be cringe but I am free</td>
+                <td><img src="sparkles.gif" width="30" height="30"></td>
+            </tr>
+        </footer>
+
+        <header id="header" class="box bar">
+            <tr>
+                <td><img src="mushrooms.png" width="25" height="30"></td>
+                <td><img src="mushroom2.png" width="30" height="30"></td>
+                <td>Entropy is inevitable. Feed me to the mushrooms.</td>
+                <td><img src="mushroom2.png" width="30" height="30"></td>
+                <td><img src="mushrooms.png" width="25" height="30"></td>
+            </tr>
+        </header>
+        <aside class="wide right top">
+            <tr>
+                <div class="green box">
+                    <p>'Logical' and 'Presentable' are wonderfully vague terms</p>
+                    <p>In addition, the instructions said nothing about 'practical' or 'useful'</p>
+                    <p>Welcome to the swamp, folks</p>
+                </div>  
+            </tr>
+                <div class="green box">
+                    <p>some</p>
+                    <p class="big"> <b>Body</b></p>
+                    <p>once</p>
+                    <p>told me</p>
+                    <p><i><b>"What are you doing in my <a href="https://en.wikipedia.org/wiki/Swamp"><span class="f30">Swamp</span></a>!? >:("</b></i></p>
+                    <img src="dek_and_shronkey.jpg" width="300" height="210">
+                </div> 
+        </aside> 
+
+            
     </body>
 </html>
